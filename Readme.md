@@ -20,6 +20,7 @@ Our input page is
 ![input_page](./input_page.png)
 
 Our output page is 
+
 ![output_page](./output_page.png)
 
 Sample output image is
