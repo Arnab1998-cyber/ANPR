@@ -15,14 +15,14 @@ applying easyocr we extract the text in the numberplate and give it to you.
 Here we use html in frontend. We have to upload the car image for which we want to know the numberplate.
 We created separate input and output directory where our input file and cropped output image will be saved.
 
-Our input page is
+##Our input page is
 
 ![input_page](./input_page.png)
 
-Our output page is 
+##Our output page is 
 
 ![output_page](./output_page.png)
 
-Sample output image is
+##Sample output image is
 
 ![output_image](./Output_Images/output.png)
