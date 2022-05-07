@@ -2,7 +2,7 @@
 ## Overview
 This is a Flask app based project, which detect numberplates of vehicles.
 ## Technologies
-Convolution Neural Network, Tensorflow-2.x, Easyocr.
+Convolution Neural Network, Tensorflow-2.x, Easyocr, Opencv.
 ## FrameWork
 Tensorflow Object Detection 
 ## Models
