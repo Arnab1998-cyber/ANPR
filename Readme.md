@@ -12,7 +12,7 @@ At first we download the model from tensorflow model garden and trained in separ
 Then using the latest checkpoint we can detect the number plate accurately.
 After detecting the numberplate we only take the necessary portion of image i.e., the numberplate portion.
 applying easyocr we extract the text in the numberplate and give it to you.
-Here we use html in frontend. We have to upload the car image for which we want to know the numberplate.
+Here we use html in frontend. We have to upload the car image or video for which we want to know the numberplate.
 We created separate input and output directory where our input file and cropped output image will be saved.
 
 ## Our input page is
