@@ -18,7 +18,6 @@ class DetectNumberPlate:
         img = cv2.imread(self.image)
         image_np = np.array(img)
         input_tensor = tf.convert_to_tensor(np.expand_dims(image_np, 0), dtype=tf.uint8, name='input_tensor')
-        print(input_tensor)
         input_tensor = input_tensor[:, :, :, :3]
         detections = detect_fn(input_tensor)
         num_detections = int(detections.pop('num_detections'))

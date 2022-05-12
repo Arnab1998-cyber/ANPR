@@ -1,5 +1,5 @@
-import os.path
-
+import os
+import shutil
 from flask import Flask,request,jsonify,render_template,redirect
 from flask_cors import CORS, cross_origin
 from werkzeug.utils import secure_filename
@@ -7,12 +7,12 @@ from werkzeug.utils import secure_filename
 
 
 from GetNumberPlate import DetectNumberPlate
-from GetNumberPlateFromVideo import DetectNumberPlateVideo
+from GetNumberPlateFromVideo import DetectNumberPlateFromVideo
 from GetTheText import get_text
 
 
 app=Flask(__name__)
-app.config['IMAGE_UPLOADS']='C:/Users/Dell/PycharmProjects/DLfirstProject/Input_Images'
+app.config['IMAGE_UPLOADS']='Input_Images'
 
 @app.route('/',methods=['GET'])
 @cross_origin()
@@ -42,8 +42,12 @@ def predict_route():
         print('The number of the car is', result)
         return render_template('results.html',prediction=result)
     else:
-        video=DetectNumberPlateVideo(img)
-        video.get_detections()
+        video=DetectNumberPlateFromVideo(img)
+        video.save_frame()
+        result=video.save_numberplate()
+        print('The number of the car is', result)
+        shutil.rmtree('Input_Video_Images')
+        return render_template('results.html', prediction=result)
 
 if __name__=='__main__':
     app.run()
